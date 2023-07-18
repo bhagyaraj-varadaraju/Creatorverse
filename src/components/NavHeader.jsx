@@ -1,11 +1,22 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function NavHeader() {
 
     return (
-        <div>
+        <header>
+            <h1>Creatorverse</h1>
+            <nav>
+                <ul>
+                    <li><Link to={"/"}>
+                        <button role="button">View all Creators</button>
+                    </Link></li>
 
-        </div>
+                    <li><Link to={"/new"}>
+                        <button role="button">Add a Creator</button>
+                    </Link></li>
+                </ul>
+            </nav>
+        </header>
     )
 }
 

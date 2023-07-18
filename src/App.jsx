@@ -5,6 +5,7 @@ import ShowCreators from './pages/ShowCreators'
 import AddCreator from './pages/AddCreator'
 import ViewCreator from './pages/ViewCreator'
 import EditCreator from './pages/EditCreator'
+import '@picocss/pico'
 import './App.css'
 
 function App() {
@@ -34,11 +35,11 @@ function App() {
 ])
 
   return (
-      <div>
+      <>
          <RouterProvider router={creatorverseRouter}>
 
          </RouterProvider>
-      </div>
+      </>
   )
 }
 

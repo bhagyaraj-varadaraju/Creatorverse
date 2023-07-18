@@ -7,7 +7,9 @@ function HomeLayout() {
         <div>
             <NavHeader />
 
-            <Outlet />
+            <main className="Container">
+                <Outlet />
+            </main>
         </div>
     )
 }

@@ -5,6 +5,7 @@ import { supabase } from '../SupabaseClient';
 function ViewCreator() {
     const [creator, setCreator] = useState({ name: "", imageUrl: "", description: "", youtube: "", twitter:"", instagram:"" });
     const { id } = useParams();
+    const navigate = useNavigate();
 
     useEffect(() => {
         const getCreator = async () => {
@@ -31,9 +32,7 @@ function ViewCreator() {
         .delete()
         .eq('creatorId', id);
 
-        setCreator({ name: "", imageUrl: "", description: "", youtube: "", twitter:"", instagram:"" });
-
-        useNavigate("/");
+        navigate("/");
     }
 
     return (

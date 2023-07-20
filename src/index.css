@@ -23,7 +23,7 @@ h1 {
   font-family: Sono;
   font-size: 8vw;
   --font-weight: 700;
-  --color: rgb(255, 255, 255);
+  --color: white;
 }
 
 article h3 {
@@ -90,6 +90,7 @@ button, input[type=button], [role=button] {
 
 .CreatorCard {
   border: 2px solid var(--muted-color);
+  background-color: rgb(66, 74, 89);
   background-size: cover;
   background-position-y: 20%;
   background-repeat: no-repeat;

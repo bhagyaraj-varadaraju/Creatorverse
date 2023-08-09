@@ -30,9 +30,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of all the implemented features:
 
-https://github.com/bhagyaraj-varadaraju/Creatorverse/assets/20358558/02af086c-751d-4ab6-82a5-3716d7252ac2
-
-GIF was created with the inbuilt macOS screen recorder
+https://github.com/bhagyaraj-varadaraju/Creatorverse/assets/20358558/ce59c44f-b089-420f-8ecd-5cd60c356713
 
 ## License
 
